@@ -745,6 +745,11 @@ footer{
   margin-bottom:24px;
 }
 
+.contact-grid-els:hover{
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}
+
 
 .contact-grid-els h3 {
   font-size:16px;

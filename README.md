@@ -62,29 +62,29 @@ gayatri-home-tutor/
 ## ⚙️ Development Setup (Basic)
 
 1. Clone the repository
-
+```
 git clone <repo-link>
 cd gayatri-home-tutor
-
+```
 
 2. Create a virtual environment (recommended)
-
+```
 python -m venv venv
 source venv/bin/activate # Mac/Linux
 venv\Scripts\activate # Windows
-
+```
 
 3. Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 
 4. Configure MySQL database credentials in `config.py`
 
 5. Run the Flask server
-
+```
 flask run
-
+```
 ---
 
 ## 👥 Team Collaboration

@@ -216,6 +216,7 @@ h1, h2, h3, h4 {
   margin-left: 20px;
   background-color: var(--color-primary-yellow);
   border-radius: 12px;
+  filter:drop-shadow(6px 6px 0px var(--color-grey-bg));
 }
 
 .book-btn:hover {
@@ -307,6 +308,7 @@ h1, h2, h3, h4 {
 #btn1 {
   background-color: var(--color-primary-yellow);
   color: var(--color-grey-bg);
+  filter: drop-shadow(8px 8px 0px var(--color-grey-bg));
 }
 
 #btn1:hover {
@@ -615,6 +617,7 @@ footer{
   padding: 32px;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  filter: drop-shadow(8px 8px 0px var(--color-grey-bg));
 }
 
 /* Head inside left column */
@@ -848,6 +851,7 @@ footer{
   font-weight: 700;
   border-radius: 9999px;
   text-decoration: none;
+  filter: drop-shadow(8px 8px 0px var(--color-grey-bg));
 }
 
 .book-button:hover{
@@ -944,6 +948,7 @@ footer{
   z-index: var(--i);
   transition: transform 0.3s ease;
   gap:16px;
+  filter: drop-shadow(8px 8px 0px var(--color-grey-bg));
 }
 
 .card:hover {

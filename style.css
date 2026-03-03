@@ -81,7 +81,6 @@ body {
   background-color: var(--color-black-bg);
   color: var(--color-white-bg);
   font-family: var(--font-body);
-  /* overflow-x: hidden; */
 }
 
 header {
@@ -827,9 +826,8 @@ footer{
   color: var(--color-white-bg);
 }
 
-/* Highlighted inline text (pink-ish in reference) */
-.highlight {
-  color: var(--color-primary-pink);
+
+.weight-500 {
   font-weight: 500;
 }
 

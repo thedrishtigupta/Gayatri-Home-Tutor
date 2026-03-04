@@ -1093,7 +1093,7 @@ footer{
 
 
 .subjects-section{
-  margin-bottom:60px;
+  margin-bottom:150px;
 }
 
 .subjects-section h2{
@@ -1149,6 +1149,67 @@ footer{
 .subjects-grid-lower-el img{
   width:12px;
   height:12px;
+}
+
+.lower-area-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  gap:16px;
+}
+
+.area-grid-els{
+  background-color: var(--color-black-bg);
+  border-radius: 12px;
+  padding:16px 24px;
+}
+
+.area-grid-els:hover{
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+  .contact-icon img {
+    content: url(/assets/images/location.png);
+  }
+}
+
+.area-h3{
+  font-size: 20px;
+}
+
+.area-p{
+  font-size: 12px;
+}
+
+.green-line .contact-icon{
+  background-color: var(--color-primary-green);
+}
+
+.red-line .contact-icon{
+  background-color: var(--color-primary-red);
+}
+
+.pink-line .contact-icon{
+  background-color: var(--color-primary-pink);
+}
+
+.yellow-line .contact-icon{
+  background-color: var(--color-primary-yellow);
+}
+
+.green-line:hover{
+  background-color: var(--color-primary-green);
+}
+
+.red-line:hover{
+  background-color: var(--color-primary-red);
+}
+
+.pink-line:hover{
+  background-color: var(--color-primary-pink);
+}
+
+.yellow-line:hover{
+  background-color: var(--color-primary-yellow);
 }
 
 .how-it-works-grid{

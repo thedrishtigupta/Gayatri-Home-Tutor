@@ -26,6 +26,10 @@
   --heading1: 60px;
 }
 
+.red{
+  background-color: var(--color-primary-red);
+}
+
 .green {
   background-color: var(--color-primary-green);
 }
@@ -46,7 +50,12 @@
   background-color: var(--color-primary-orange);
 }
 
-
+.black-text{
+  color:var(--color-black-bg);
+}
+.white-text{
+  color:var(--color-white-bg);
+}
 .green-text {
   color:var(--color-primary-green);
 }
@@ -584,6 +593,8 @@ footer{
 .sections-p{
   display:block;
   font-size: 24px;
+  width:540px;
+  text-align:center;
 }
 
 .section-body{
@@ -1080,6 +1091,69 @@ footer{
   width:720px;
 }
 
+
+.subjects-section{
+  margin-bottom:60px;
+}
+
+.subjects-section h2{
+  margin-bottom: 60px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.subjects-grid{
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap:24px;
+}
+
+.subjects-grid-els {
+  width:220px;
+  padding:16px 24px;
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+  border-radius: 16px;
+  filter: drop-shadow(8px 8px 0px var(--color-grey-bg));
+}
+
+.subjects-grid-els:hover{
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}
+
+.subjects-grid-upper-el{
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--color-dark-text);
+  padding-bottom: 8px;
+}
+
+.subjects-grid-upper-el h3{
+  font-size:20px;
+}
+
+.subjects-grid-lower-el ul{
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.subjects-grid-lower-el li {
+  display:flex;
+  gap:8px;
+  align-items: center;
+}
+
+.subjects-grid-lower-el img{
+  width:12px;
+  height:12px;
+}
+
+.how-it-works-grid{
+  gap:24px;
+}
+
 .cta-choose-grid{
   display:flex;
   flex-direction: column;
@@ -1177,6 +1251,7 @@ footer{
   font-weight:600;
   color:var(--color-primary-green);
 }
+
 
 
 /* ===================== Book demo page styles===================== */

@@ -838,7 +838,7 @@ footer{
   text-align: left;
 }
 
-.mission-content p {
+.mission-content-p {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 40px;
@@ -928,7 +928,8 @@ footer{
   font-size: 20px;
 }
 
-.grid-els p{
+.grid-els-p{
+  width:22ch;
   font-size: 16px;
   color:var(--color-dark-text);
   line-height:1.6;
@@ -1212,9 +1213,53 @@ footer{
   background-color: var(--color-primary-yellow);
 }
 
+.find-area-h2{
+  text-align:center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.find-area-p{
+  width:40ch;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.find-area-grid{
+  display:grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap:8px;
+  /* align-items: center; */
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.find-area-grid-els{
+  display:flex;
+  gap:12px;
+  align-items: center;
+}
+.find-area-grid-icon{
+  align-items: center;
+}
+.find-area-grid-icon img{
+  width:16px;
+  height:16px;
+}
+
+.find-area-grid-els-p{
+  font-size: 18px;
+}
+
+#contact-us-btn{
+  background-color: var(--color-primary-green);
+}
+
 .how-it-works-grid{
   gap:24px;
 }
+
 
 .cta-choose-grid{
   display:flex;

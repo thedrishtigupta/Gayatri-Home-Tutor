@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header"></div>
+    <div data-partial="layout/header"></div>
     <main>
         <section class="hero-section">
             <div class="container">
@@ -71,7 +71,7 @@
                 </div>
                 <p class = "sections-p">Empowering students across Delhi NCR with personalized home tuition since 2010</p>
             </div>
-            <div class="section-body" id="about-sections">
+            <div class="section-body" data-partial="sections/about-sections">
             </div>
         </section>
         <section class="sections">
@@ -81,24 +81,17 @@
                 </div>
                 <p class = "sections-p">Comprehensive home tuition services for every academic need</p>
             </div>
-            <div class="section-body" id="services-sections"></div>
+            <div class="section-body" data-partial="sections/services-sections"></div>
         </section>
         <!-- <section class="sections">
             <div class="section-container">
-                <div class="section-heading" id="book-demo-heading">
-                    <h1>Book Demo</h1>
+                <div class="section-heading" id="our-tutor-heading">
+                    <h1>Our Expert Tutors</h1>
                 </div>
-                <p>Book a free demo or reach out with any questions</p>
+                <p class = "sections-p">Verified and experienced educators dedicated to your success</p>
             </div>
+            <div class="section-body" data-partial="sections/our-tutors-section"></div>
         </section> -->
-        <section class="sections">
-            <div class="section-container">
-                <div class="section-heading" id="become-tutor-heading">
-                    <h1>Become Tutor</h1>
-                </div>
-                <p class = "sections-p">Book a free demo or reach out with any questions</p>
-            </div>
-        </section>
         <section class="sections">
             <div class="section-container">
                 <div class="section-heading" id="contact-heading">
@@ -106,7 +99,7 @@
                 </div>
                 <p class = "sections-p">Book a free demo or reach out with any questions</p>
             </div>
-            <div class="section-body" id="contact-sections">
+            <div class="section-body" data-partial="sections/contact-sections">
             </div>
         </section>
     </main>
@@ -114,7 +107,7 @@
 
 
 
-    <div id="footer"></div>
+    <div data-partial="layout/footer"></div>
     <script src="assets/js/loadPartials.js"></script>
     <script src="assets/js/script.js"></script>
 </body>

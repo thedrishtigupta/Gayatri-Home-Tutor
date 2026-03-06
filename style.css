@@ -26,6 +26,10 @@
   --heading1: 60px;
 }
 
+.yellow{
+  background-color: var(--color-primary-yellow);
+}
+
 .red{
   background-color: var(--color-primary-red);
 }
@@ -1376,9 +1380,95 @@ footer{
   background-color: var(--color-primary-yellow);
 }
 
+/* ===================== Our expert tutors section styles===================== */
+
+.tutor-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  gap:24px;
+  margin-bottom:40px;
+}
+
+.tutor-card{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  gap:12px;
+  color:var(--color-black-bg);
+
+  /* background:#f5f5f5; */
+  padding:20px;
+  border-radius:16px;
+
+  /* max-width:650px; */
+}
+
+.upper-tutor-card{
+  display:flex;
+  align-items: center;
+  gap:24px;
+}
+
+/* Image */
+
+.tutor-img{
+  width:120px;
+  height:120px;
+  border-radius:18px;
+  overflow:hidden;
+  flex-shrink:0;
+}
+
+.tutor-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+/* Info section */
+
+.tutor-info{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+/* Tutor name */
+
+.tutor-name{
+  font-size:20px;
+  font-weight:700;
+  margin:0;
+}
+
+/* List */
+
+.tutor-details{
+  margin:6px 0;
+  padding-left:0;
+}
+
+.tutor-details li{
+  font-size:14px;
+  margin-bottom:4px;
+}
+
+/* Education highlight */
+
+.tutor-education{
+  font-size:14px;
+  font-weight:600;
+  background:var(--color-black-bg);
+  color: var(--color-white-bg);
+  padding:6px 10px;
+  border-radius:8px;
+  width:fit-content;
+}
+
 
 /* ===================== Become tutor page styles===================== */
-#become-tutor-heading{
+#our-tutor-heading{
   background-color: var(--color-primary-orange);
 }
 
@@ -1501,3 +1591,105 @@ footer{
 .right-cta{
   margin-top:40px;
 }
+
+
+
+/* ===================== Terms.html styles===================== */
+
+.terms-container{
+  width:900px;
+  margin:auto;
+  padding:60px 0;
+}
+
+.accordion-header{
+  width:100%;
+  padding:16px 20px;
+  font-size:18px;
+  text-align:left;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  background:var(--color-primary-yellow);
+  border-radius:12px;
+  margin-bottom:16px;
+  font-weight:600;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  filter:drop-shadow(8px 8px 0px var(--color-grey-bg));
+}
+
+.accordion-header::after{
+  content:"▼";
+  font-size:14px;
+  transition:transform 0.3s ease;
+}
+
+.accordion-header.active::after{
+  transform:rotate(180deg);
+}
+
+.accordion-header:hover{
+  filter: brightness(0.9);
+}
+
+.accordion-content{
+  /* padding:24px; */
+  max-height:0;
+  overflow:hidden;
+  transition:max-height 0.35s ease;
+  padding:0 20px;
+}
+
+.accordion-content p{
+  margin:8px 0 16px 0;
+  font-size:15px;
+  line-height:1.6;
+}
+
+/* Plan cards */
+
+.terms-group{
+  padding: 0 18px;
+  margin-bottom:20px;
+}
+
+#group-A{
+  border-left:4px solid var(--color-primary-purple);
+}
+
+#group-B{
+  border-left:4px solid var(--color-primary-orange);
+}
+
+/* Plan title */
+
+.accordion-content h3{
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+/* Bullet list */
+
+.accordion-content ul{
+  padding-left:18px;
+  margin:0;
+}
+
+/* List items */
+
+.accordion-content li{
+  margin-bottom:8px;
+  font-size:14.5px;
+  list-style-type:disc;
+  line-height:1.5;
+}
+
+/* Bold highlight */
+
+/* .accordion-content b{
+  color:#000;
+} */
